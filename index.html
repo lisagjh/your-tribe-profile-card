@@ -6,54 +6,53 @@
     <title>FDND Visitekaartje</title>
     <link rel="stylesheet" href="styles/style.css">
   </head>
-  <body>
-    
-    <article>
-      
-      <header>
-        
-        <h1>Lisa</h1>
-        
-        <p><em>FDND student @ <strong>HVA</strong></em></p>
-        
-        <button>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
-        
-      </header>
-  
-      <img src="assets/creative-coder.png" alt="" width="800" height="800">
 
-      <dl>
-        <dt>HTML</dt>
-        <dd>🏆🏆🏆</dd>
-        
-        <dt>CSS</dt>
-        <dd>🏆🏆</dd>
-        
-        <dt>JavaScript</dt>
-        <dd>🏆🏆🏆🏆</dd>
-      </dl>
-  
-      <p>Het WEB is te gek! <br> Met HTML, CSS en JavaScript kan ik vette, interactieve web apps maken.</p>
-      
-    </article>
+  <head>
 
-    <script src="scripts/script.js"></script>
-    
-  </body>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <!-- Boxicons CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <article>
+    <header>
+      <div id="profile-pic"><img src="assets/profilepic3.JPG" alt="" height="150px" width="150px"></src></div>
+    </header>
+
+    <div id="info">
+      <h1 id="name">Lisa</h1>
+      <div id="personal">
+        <p>📚 FDND student @ <strong>HVA</strong><br>📍Aalsmeer</p>
+        <h2>Skills</h2>
+        <!--<dl>
+          <dt>HTML</dt>
+          <dd>⭐️⭐️</dd>
+          <dt>CSS</dt>
+          <dd>⭐️⭐️</dd>
+        </dl>-->
+        <ul id="list">
+          <li>HTML</li>
+          <li>⭐️⭐️</li>
+          <li>CSS</li>
+          <li>⭐️⭐️</li>
+      </div>
+      <div id="About">
+        <h2>About</h2>
+        <p>hallo uuuuuh ja. goed verhaal.</p>
+      </div>
+    </div>
+
+    <div id="buttons">
+      <button><a href="https://www.instagram.com/lisagjh/"><i class='bx bxl-instagram'></i></button>
+      <button><a href="https://www.linkedin.com/in/lisa-van-der-hoorn-001684273/"><i class='bx bxl-linkedin-square'></i></button>
+
+  </article>
+
+  <script src="scripts/script.js"></script>
+</body>
 </html>
+
+

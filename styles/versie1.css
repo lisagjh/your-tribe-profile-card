@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+/*via fonts.google een font geimporteerd*/
 
 * {
   box-sizing: border-box;
@@ -11,47 +12,37 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: #2d2352;
+  color: #2f1924;
 }
 
 article {
   width: 380px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background: #d60837;
-  background: linear-gradient(0deg, #d60837 25%, #ffaa00 100%);
+  background: linear-gradient(35deg, #d60837 20%, #ffaa00 100%);
   box-shadow: 0 0 20px #171717;
-  border-radius: 20px;
+  border-radius: 5%;
   position: relative;
   transition: 0.25s;
-  padding: 20px;
-}
-
-#profile-pic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3px;
+  padding: 25px 20px 20px 20px;
 }
 
 img {
   border-radius: 50%;
-  border: 5px solid #d60837;
+  border: 3px solid #d60837;
 }
 
 h1 {
   text-align: center;
   font-weight: 600;
-  font-size: 30px;
-  background: #ffffff;
+  font-size: 2em;
 }
 
 #info {
   background: #ffffff;
-  border-radius: 20px;
+  border-radius: 15px;
   margin-top: 0.5rem;
   padding: 20px;
 }
@@ -62,24 +53,17 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 1.5em;
   margin-top: 0.5rem;
   margin-bottom: -0.5rem;
   text-decoration: underline solid 1.5px #d60837;
 }
 
-#list {
+dl {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  list-style: none;
-  margin-top: 0.5rem;
-  padding: 15px;
-}
-
-li {
-  padding: 15px;
   justify-content: space-evenly;
-  line-height: 1px;
+  grid-template-columns: 1fr 1fr;
+  
 }
 
 button {
@@ -95,12 +79,11 @@ button {
 
 button:hover {
   transform: scale(1.2);
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
 }
 
 a {
   text-decoration: none; 
-  margin-top: rem;
 }
 
 a:visited { 
@@ -112,7 +95,7 @@ a:visited {
 
 /* expand content */
 
-body.expand {
+/*body.expand {
   font-size: 1.15em;
 }
 
@@ -137,4 +120,4 @@ body.expand dd {
 
 body.expand img {
   width: 15em;
-}
+}*/

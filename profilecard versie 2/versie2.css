@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+/*via fonts.google een font geimporteerd*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2f1924;
+}
+
+article {
+  display: flex;
+  width: 30em;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #d60837;
+  background: linear-gradient(35deg, #d60837 20%, #ffaa00 100%);
+  box-shadow: 0 0 20px #171717;
+  border-radius: 5%;
+  transition: 0.25s;
+  padding: 2em;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  margin: 0em;
+  padding-bottom: 0.5em;
+  justify-content: space-evenly;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  margin: 0em;
+  padding: 0em;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 600;
+  margin: 0em 0em -0.5em 0em;
+  padding: 0.1em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+dl {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 1ch auto;
+  margin: 0.5em;
+  padding: 0px;
+}
+
+button {
+  font-size: 1.25em;
+  width: 100%;
+  background-color: #d60837;
+  color: #ffffff;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+
+button:hover {
+  background: linear-gradient(200deg, #d60837 5%, #ffaa00 100%);
+  color: #ffffff;
+}
+
+#info {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0px 0px 15px 15px;
+}
+
+#about {
+  text-align: center;
+  width: 50%
+}
+
+#skills {
+  text-align: center;
+  width: 50%;
+}

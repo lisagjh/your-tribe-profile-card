@@ -27,23 +27,30 @@
       <img src="assets/profilepic3 kopie.JPG" alt="" height="120px" width="120px"></src>
 
     </header>
-    <div id="info">
-      <div id="about">
-        <button>About</button>
-        <p>📚 FDND student <br>@ <strong>HVA</strong><br>📍Aalsmeer<br>22</p>
-        <p>heel interessante tekst hier</p>
-      </div>
 
-      <div id="skills">
-        <button>Skills</button>
-        <dl>
-          <dt>HTML</dt>
-          <dd>⭐️⭐️</dd>
-          <dt>CSS</dt>
-          <dd>⭐️⭐️</dd>
-        </dl>
-        <p>nog wat tekst hier</p>
-      </div>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event,'About')">About</button>
+      <button class="tablinks" onclick="openTab(event,'Skills')">Skills</button>
+      <button class="tablinks" onclick="openTab(event,'More')">More</button>
+    </div>
+
+    <div id="About" class="tabcontent">
+      <p>eerstejaars FDND student @ <strong>HVA</strong><br>22<br>📍 Aalsmeer</p>
+    </div>
+
+    <div id="Skills" class="tabcontent">
+      <dl>
+        <dt>HTML</dt>
+        <dd>⭐️</dd>
+
+        <dt>CSS</dt>
+        <dd>⭐️</dd>
+      </dl>
+      <p></p>
+    </div>
+
+    <div id="More" class="tabcontent">
+      <p>en nog veel meer leuke tekst hier<br>nog meer tekst</p>
     </div>
 
   </article>
@@ -54,9 +61,8 @@
 
 
 <!--
-  tabs maken: https://www.w3schools.com/howto/howto_js_tabs.asp
-
+  tabs tutorial: https://www.w3schools.com/howto/howto_js_tabs.asp
 -->
 <script src="versie2.js"></script>
-</html>
 
+</html>

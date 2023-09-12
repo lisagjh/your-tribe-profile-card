@@ -21,7 +21,6 @@ article {
   width: 30em;
   flex-wrap: wrap;
   flex-direction: column;
-  background: #d60837;
   background: linear-gradient(45deg, #d60837 20%, #ffaa00 80%);
   box-shadow: 0 0 20px #171717;
   border-radius: 5%;

@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 /*via fonts.google een font geimporteerd, eerste is 'inter', sans serif  tweede is'rock salt', cursive*/
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* border-box zorgt dat de browser rekening houd met de border en padding die je specificeert, margin zit wel hier buiten */
 }
 
 body {
@@ -38,10 +37,23 @@ header {
   justify-content: space-evenly;
 }
 
+/*
 #name {
   display: flex;
   flex-direction: column;
   text-align: center;
+} 
+*/
+
+h1 {
+  align-items: center;
+}
+
+h1 + p {
+  /* ik had de h1 en p met mijn achternaam eerst samen in een div gezet (zie #name hierboven), maar in het thema van semantiek besloten om te proberen hetzelfde te bereiken met css selectors. met position absolute op het p element kan ik deze als het ware "vrij bewegen" op de pagina met behulp van de padding.*/
+  position: absolute;
+  padding-top: 5rem;
+  padding-right: 10rem;
 }
 
 img {
@@ -63,16 +75,18 @@ h2 {
 ul {
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  font-weight: 500;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* zorgt dat de 3 dingen van de UL naast elkaar komen te staan */
+  font-weight: 500; /* dikkere font */
   padding: 0em 0em 0.5em 0em;
 }
 
 .tab {
-  overflow: hidden;
-  background-color: #fff;
   display: flex;
   flex-direction: row;
+  background-color: #fff;
 }
 
 .tab button {
@@ -80,11 +94,12 @@ ul {
   color: #fff;
   font-size: 1em;
   border: none;
-  transition: 0.4s;
+  transition: 0.4s; /* als je op een van de buttons klikt is de overgang naar die tab iets geleidelijker */
   width: 100%;
 }
 
 .tab button:hover {
+  /* als je over de button hovert krijgt ie een gradient net als de background */
   background: linear-gradient(0deg, #ffaa00 10%, #d60837 80%);
 }
 
@@ -113,11 +128,11 @@ dl {
   }
 }
 
-#Skills {
+#skills {
   display: none;
 }
 
-#More {
+#more {
   display: none;
 }
 
@@ -151,5 +166,5 @@ a:visited {
 }
 
 i {
-  scale: 0.9;
+  scale: 0.9; /* zorgt dat de icons iets kleiner zijn */
 }

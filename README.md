@@ -11,5 +11,5 @@ Na verschillende schetsen en twee versies gemaakt te hebben, is dit het uiteinde
 
 # Werkwijze
 Tijdens het werken aan mijn profile card heb ik kennis gemaakt met de development life cycle, en deze iteratief toegpast. 
-Zo moesten we na een workshop over visuele hierarchie opnieuw gaan schetsen, en ben ik daarna eigenlijk bij een heel ander ontwerp gekomen. Ook heb ik een aantal delen van de code opnieuw gemaakt, na feedback of een les. Deze schetsen zijn terug te vinden in de wiki.
+Zo moesten we na een workshop over visuele hierarchie opnieuw gaan schetsen, en heb ik daarna eigenlijk een heel ander ontwerp gekozen. Ook heb ik een aantal delen van de code opnieuw gemaakt, na feedback of een les. Deze schetsen zijn terug te vinden in de wiki.
 Ik heb voor dit project gebruik gemaakt van visual studio code, en veel hulp gehad van de bronnen die bij de lessen stonden en youtube videos.
